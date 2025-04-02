@@ -36,7 +36,7 @@ glob:	For file handling — collects all .nc files from the given directory
 
 # Downloading TEMPO Satellite NetCDF Files
 
-You can download NetCDF files of TEMP (satellite temperature data) from NASA's Earthdata Search portal.
+You can download NetCDF files of TEMPO (satellite data) from NASA's Earthdata Search portal.
 
 ## 🔗 Data Source
 
