@@ -1,1 +1,9 @@
+TEMPO NO₂ Analysis
 
+This project processes and visualizes tropospheric NO₂ column data from TEMPO satellite NetCDF files.
+
+📦 Release
+
+v1.0.0 :[ https://github.com/mrbohloul/TEMPO_NOx_Analysis/releases/tag/v1.0.0 ]
+
+This release includes a sample set of NetCDF files used in the tempo-no2-analysis project to generate the mean NO₂ vertical column map shown in the results/ folder.
