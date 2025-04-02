@@ -22,7 +22,6 @@ Visualizes the result using Cartopy with a color-mapped pcolormesh and map featu
 📦 Required Modules
 Here’s what each package does in the script:
 
-Module	Purpose
 xarray: For reading NetCDF files and handling multi-dimensional datasets
 
 numpy:	For numerical operations and percentile-based filtering
