@@ -3,7 +3,7 @@ This project processes and visualizes tropospheric NO₂ column data from TEMPO 
 
 ## 📂 Folder Structure
 - `Script/analyze_no2.py` – Main script for processing and plotting.
-- `Data/` - NetCDF (.nc) files produced by the TEMPO
+- `Data/NetCDF (.nc)` - NetCDF (.nc) files produced by the TEMPO
 - `Results/mean_no2_map.png` - # 📸 Example output plot
 
 🧾 Script Overview
