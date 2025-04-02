@@ -2,6 +2,7 @@
 This project processes and visualizes tropospheric NO₂ column data from TEMPO satellite NetCDF files.
 
 ## 📂 Folder Structure
+
 - `Script/analyze_no2.py` – Main script for processing and plotting.
 - `Results/mean_no2_map.png` - # 📸 Example output plot
 
@@ -9,6 +10,7 @@ This project processes and visualizes tropospheric NO₂ column data from TEMPO 
 The script analyze_no2.py is designed to process and visualize tropospheric NO₂ vertical column densities from a set of NetCDF (.nc) files produced by the TEMPO (Tropospheric Emissions: Monitoring of Pollution) satellite.
 
 🔍 What it does:
+
 Loads NO₂ data from the product group of multiple NetCDF files.
 Extracts and applies geolocation data (latitude and longitude) from the geolocation group.
 Filters out invalid NO₂ values (negative or extreme outliers).
