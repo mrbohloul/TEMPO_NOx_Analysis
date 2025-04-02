@@ -3,7 +3,6 @@ This project processes and visualizes tropospheric NO₂ column data from TEMPO 
 
 ## 📂 Folder Structure
 - `Script/analyze_no2.py` – Main script for processing and plotting.
-- `Data/NetCDF (.nc)` - NetCDF (.nc) files produced by the TEMPO
 - `Results/mean_no2_map.png` - # 📸 Example output plot
 
 🧾 Script Overview
@@ -27,3 +26,19 @@ matplotlib.pyplot:	For creating the NO₂ plot
 cartopy.crs:	For defining map projection (e.g. PlateCarree)
 cartopy.feature:	For adding coastlines, borders, and gridlines to the map
 glob:	For file handling — collects all .nc files from the given directory
+
+# Downloading TEMP Satellite NetCDF Files
+
+You can download NetCDF files of TEMP (satellite temperature data) from NASA's Earthdata Search portal.
+
+## 🔗 Data Source
+
+- Visit: [NASA Earthdata Search](https://search.earthdata.nasa.gov/search)
+
+## 📥 How to Download
+
+1. Go to the link above.
+2. Use the search bar to look for datasets related to **"TEMP satellite NetCDF"** or other temperature-related keywords.
+3. Apply filters
+4. Select the datasets you're interested in.
+5. Click **Download** and follow the instructions (you may need to create a free Earthdata login or use the Chrono Download Manager extension if you're using the Chrome browser).
