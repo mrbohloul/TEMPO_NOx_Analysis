@@ -24,10 +24,15 @@ Here’s what each package does in the script:
 
 Module	Purpose
 xarray: For reading NetCDF files and handling multi-dimensional datasets
+
 numpy:	For numerical operations and percentile-based filtering
+
 matplotlib.pyplot:	For creating the NO₂ plot
+
 cartopy.crs:	For defining map projection (e.g. PlateCarree)
+
 cartopy.feature:	For adding coastlines, borders, and gridlines to the map
+
 glob:	For file handling — collects all .nc files from the given directory
 
 # Downloading TEMPO Satellite NetCDF Files
