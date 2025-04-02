@@ -30,7 +30,7 @@ cartopy.crs:	For defining map projection (e.g. PlateCarree)
 cartopy.feature:	For adding coastlines, borders, and gridlines to the map
 glob:	For file handling — collects all .nc files from the given directory
 
-# Downloading TEMP Satellite NetCDF Files
+# Downloading TEMPO Satellite NetCDF Files
 
 You can download NetCDF files of TEMP (satellite temperature data) from NASA's Earthdata Search portal.
 
@@ -41,7 +41,7 @@ You can download NetCDF files of TEMP (satellite temperature data) from NASA's E
 ## 📥 How to Download
 
 1. Go to the link above.
-2. Use the search bar to look for datasets related to **"TEMP satellite NetCDF"** or other temperature-related keywords.
+2. Use the search bar to look for datasets related to **"TEMPO satellite NetCDF"** or other related keywords.
 3. Apply filters
 4. Select the datasets you're interested in.
 5. Click **Download** and follow the instructions (you may need to create a free Earthdata login or use the Chrono Download Manager extension if you're using the Chrome browser).
